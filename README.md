@@ -26,7 +26,7 @@ To run the Choobin interpreter, you need Python installed on your system. You ca
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/OnlyParsa/ChoobinV2
-Navigate to the Project Directory:
+## Navigate to the Project Directory:
 cd ChoobinV2
 Install the Package:
 pip install .
@@ -38,7 +38,7 @@ choobin
 Running Choobin Scripts
 You can also run .choob files directly:
 
-Create a Choobin script file, for example example.choob:
+## Create a Choobin script file, for example example.choob:
 say "Hello, Choobin!"
 Make the script executable:
 chmod +x example.choob
@@ -48,7 +48,7 @@ Basic Commands
 say Command
 The say command is used to print text or the result of an expression to the output.
 
-Example:
+## Example:
 say "Hello, Choobin!"
 Output:
 
@@ -56,7 +56,7 @@ Hello, Choobin!
 set Command
 The set command is used to define variables.
 
-Example:
+## Example:
 choobin
 set x = 10
 say x
@@ -66,7 +66,7 @@ Output:
 repeat Command
 The repeat command is used to execute a block of code multiple times.
 
-Example:
+## Example:
 choobin
 repeat 3 {
     say "This is a loop"
@@ -80,7 +80,7 @@ This is a loop
 More Commands
 For more commands and detailed documentation, please refer to the official documentation.
 
-Examples
+## Examples
 Here are some example scripts to help you get started:
 
 Basic Arithmetic
@@ -105,7 +105,7 @@ greet("Parsa")
 Contributing
 We welcome contributions from the community! Please read our Contributing Guide to learn how to get involved.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Thank you for using Choobin! We hope you enjoy programming with it.
+## Thank you for using Choobin! We hope you enjoy programming with it.
