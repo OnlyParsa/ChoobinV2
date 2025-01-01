@@ -1,27 +1,54 @@
-# Choobin Programming Language
+# Choobin Programming Language Documentation
 
-Choobin is a versatile and powerful programming language designed to be simple yet robust, allowing for a wide range of applications from basic scripting to complex software development. This repository contains the interpreter for the Choobin programming language.
+## Introduction
+Choobin is a simple yet powerful programming language designed to cater to a wide range of applications, from basic scripting to complex software development.
 
-## Features
+---
 
-- **Variable Definitions**: Support for various data types including strings, numbers, lists, and dictionaries.
-- **Functions**: Define and call functions with parameters and return values.
-- **Loops**: Support for `for` and `while` loops.
-- **Conditions**: Implement `if-else` conditions.
-- **Classes and Objects**: Object-oriented programming support.
-- **Error Handling**: Manage errors using `try-except` blocks.
-- **Modules**: Import and use external modules.
-- **Logical and Comparison Operators**: Use logical and comparison operations.
-- **External Libraries**: Utilize external Python libraries.
-
-## Getting Started
-
+## Installation and Execution
 ### Prerequisites
-
-To run the Choobin interpreter, you need to have Python installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
+To run the Choobin interpreter, you need Python installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
 
 ### Installation
-
 Clone this repository to your local machine using:
-```sh
+```bash
 git clone https://github.com/OnlyParsa/ChoobinV2
+```
+Navigate to the project directory:
+```bash
+cd ChoobinV2
+```
+Run the interpreter using the following command:
+```bash
+python main.py
+```
+
+### Quick Start
+Once the interpreter is running, you can type Choobin commands. To exit, type `exit`.
+
+---
+
+## Basic Commands
+### `say` Command
+The `say` command is used to print text or the result of an expression to the output.
+#### Usage:
+```choobin
+say "Hello, Choobin!"
+```
+#### Output:
+```
+Hello, Choobin!
+```
+
+#### Note:
+- You can also use variables or mathematical expressions:
+```choobin
+set x = 10
+say x + 5
+```
+#### Output:
+```
+15
+```
+
+---
